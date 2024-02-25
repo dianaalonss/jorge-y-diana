@@ -1,0 +1,18 @@
+@import "../../../styles";
+
+.main-panel {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: $fondo_verde_70;
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    .iframe {
+      width: 100vw;
+      height: 90vh;
+    }
+  }
+}
+
+
